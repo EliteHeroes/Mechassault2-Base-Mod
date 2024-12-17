@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "switchteam_inactive.tif"
+file = "switchteam_active.tif"
+file = "switchteam_pressed.tif"
+file = "switchteam_disabled.tif"
+

@@ -1,0 +1,10 @@
+<xmlres>
+<material_solid version="1" name="3d_reticle mat" diffuse="0, 0, 0" selfillum="112, 16, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="0.67000002" two_sided="false" shading="flat" blending="additive"/>
+<meshxml version="1" name="reticle_shape03 mesh" type="indexedstrip" material="3d_reticle mat" vertices="reticle_shape03 verts" indices="reticle_shape03 indices" optimized="true"/>
+<node_3dobject version="1" name="optimize" position="0.00000000, 0.00000000, 0.00000000" rot_axis="0.00000000, 1.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<bounding_volume>
+<bv_obb origin="0.00000453, 0.00000191, 0.00000001" xaxis="-1.00000000, 0.00000000, 0.00000000" yaxis="0.00000000, 0.00000000, -1.00000000" zaxis="0.00000000, 1.00000000, 0.00000000" lengths="5.42561150, 0.09975001, 5.42561102"/>
+</bounding_volume>
+<mesh name="reticle_shape03 mesh"/>
+</node_3dobject>
+</xmlres>

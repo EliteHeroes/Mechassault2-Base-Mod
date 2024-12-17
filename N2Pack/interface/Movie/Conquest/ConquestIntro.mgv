@@ -1,0 +1,14 @@
+[Movie]
+Type	  = MOVIE					; MOVIE or SPRITE
+ImageType = X8R8G8B8					; 
+AudioType = 5.1					; mono, stereo, 5.1, 5.0, 4.0, 2.0, 1.0, none
+SrcPath	  = "D:\Movie"
+file	  = ConquestIntro.bik
+ntsc_pal  = true
+localized = true
+play	  = true
+loop	  = false
+
+
+
+

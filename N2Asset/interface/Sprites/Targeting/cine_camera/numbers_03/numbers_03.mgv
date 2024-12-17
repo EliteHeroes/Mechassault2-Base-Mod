@@ -1,0 +1,15 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 15
+file = "numbers_03_00.tif"
+file = "numbers_03_00.tif"
+file = "numbers_03_00.tif"
+file = "numbers_03_blank.tif"
+file = "numbers_03_blank.tif"
+
+
+
+
+

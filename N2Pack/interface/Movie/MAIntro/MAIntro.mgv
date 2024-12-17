@@ -1,0 +1,13 @@
+[Movie]
+Type	  = MOVIE
+ImageType = YUV2
+AudioType = 5.1
+preload   = true
+NTSC_PAL  = false
+file	  = MAIntro.bik
+play	  = true
+
+
+
+
+

@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "credits_inactive.tif"
+file = "credits_active.tif"
+file = "credits_pressed.tif"
+file = "credits_disabled.tif"
+

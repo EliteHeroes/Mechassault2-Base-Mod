@@ -1,0 +1,18 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 16,64
+file = "arrow_h_barrel_right_static.tif"
+file = "arrow_h_barrel_right_pressed.tif"
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 32,32
+
+file = "defense_NullSig.tif"
+file = "defense_TargetJamming.tif"
+file = "defense_AMS.tif"
+file = "defense_MA1Shield.tif"
+file = "defense_EnergyShield.tif"
+file = "defense_BallisticShield.tif"
+file = "defense_MissileShield.tif"
+
+
+

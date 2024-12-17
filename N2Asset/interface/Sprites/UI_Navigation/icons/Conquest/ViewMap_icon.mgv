@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "ViewMap_inactive.tif"
+file = "ViewMap_active.tif"
+file = "ViewMap_pressed.tif"
+file = "ViewMap_disabled.tif"
+

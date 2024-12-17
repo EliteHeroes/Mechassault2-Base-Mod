@@ -1,0 +1,8 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+file = "cpslck_indicator.tif"
+
+

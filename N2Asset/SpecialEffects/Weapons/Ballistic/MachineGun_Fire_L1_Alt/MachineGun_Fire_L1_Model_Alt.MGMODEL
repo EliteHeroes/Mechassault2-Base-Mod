@@ -1,0 +1,23 @@
+<xmlres>
+<material_base version="1" name="machinegun_fire_l1_flash1 mat" diffuse="255, 255, 255" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="true" shading="material_only" blending="additive">
+<basetexture filename="..\..\..\..\Texture_Dump\SpecialEffects\Wpn_MachineGun_01_Alt.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_base>
+<meshxml version="1" name="flash mesh" type="indexedstrip" material="machinegun_fire_l1_flash1 mat" vertices="flash verts" indices="flash indices" optimized="true"/>
+<meshxml version="1" name="machinegun_fire_l1_muzzleglow1 mesh" type="indexedstrip" material="machinegun_fire_l1_flash1 mat" vertices="machinegun_fire_l1_muzzleglow1 verts" indices="machinegun_fire_l1_muzzleglow1 indices" optimized="true"/>
+<meshxml version="1" name="plane01 mesh" type="indexedstrip" material="machinegun_fire_l1_flash1 mat" vertices="plane01 verts" indices="plane01 indices" optimized="true"/>
+<node_generic version="1" name="machinegun_fire_l1" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="0.80000001, 0.80000001, 0.80000001" turned_on="true" collidable="true" bounds_cover_children="false">
+<children>
+<node_3dobject version="1" name="flash" position="-0.00000000, -0.00000000, 0.12467493" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="flash mesh"/>
+<children>
+<node_3dobject version="1" name="machinegun_fire_l1_muzzleglow1" position="-0.00733128, -0.01146263, -0.07517278" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000012" scale="0.49593654, 0.49593660, 0.61047173" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="machinegun_fire_l1_muzzleglow1 mesh"/>
+</node_3dobject>
+<node_3dobject version="1" name="plane01" position="-0.00000000, -0.00000000, 1.99266148" rot_axis="1.00000000, 0.00000000, 0.00000000" rot_angle="1.57079637" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="plane01 mesh"/>
+</node_3dobject>
+</children>
+</node_3dobject>
+</children>
+</node_generic>
+</xmlres>

@@ -1,0 +1,18 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 32,32
+file = "CMS_right_static.tif"
+file = "CMS_right_pressed.tif"
+
+
+
+
+
+
+
+
+
+

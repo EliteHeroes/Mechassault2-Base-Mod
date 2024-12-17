@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "Syslink_inactive.tif"
+file = "Syslink_active.tif"
+file = "Syslink_pressed.tif"
+file = "Syslink_disabled.tif"
+

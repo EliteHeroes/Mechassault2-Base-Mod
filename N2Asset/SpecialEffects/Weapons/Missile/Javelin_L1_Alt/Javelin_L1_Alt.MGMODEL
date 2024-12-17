@@ -1,0 +1,21 @@
+<xmlres>
+<material_specular_mask version="1" name="wpn_missile_01 mat" diffuse="255, 255, 255" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.40000001" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal" specular_bloom="0.00000000">
+<basetexture filename="..\..\..\..\Texture_Dump\SpecialEffects\Wpn_Missile_01_Alt.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="-2.00000000" filter="FILTER_LINEAR"/>
+</material_specular_mask>
+<material_base version="1" name="wpn_missileglow_blue mat" diffuse="255, 255, 255" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="material_only" blending="additive">
+<basetexture filename="..\..\..\..\Texture_Dump\SpecialEffects\Wpn_MissileGlow_blue.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="-2.00000000" filter="FILTER_LINEAR"/>
+</material_base>
+<meshxml version="1" name="javelin l1 missile mesh" type="indexedstrip" material="wpn_missile_01 mat" vertices="javelin l1 missile verts" indices="javelin l1 missile indices" optimized="true"/>
+<meshxml version="1" name="javelin l1 glow mesh" type="indexedstrip" material="wpn_missileglow_blue mat" vertices="javelin l1 glow verts" indices="javelin l1 glow indices" optimized="true"/>
+<node_3dobject version="1" name="javelin l1 missile" position="-0.00396169, 0.02104195, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="javelin l1 missile mesh"/>
+<children>
+<node_facing version="1" name="javelin l1 glow" position="0.01582211, -0.00403140, -0.32979381" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="false" bounds_cover_children="false">
+<mesh name="javelin l1 glow mesh"/>
+</node_facing>
+<node_light version="1" name="hardware light" position="0.00566596, -0.02104195, -0.00668980" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false" light_type="point" light_on="yes" affects_shadow="true" light_priority="3" light_color="144, 165, 255" light_inner_radius="15.00000000" light_outer_radius="25.00000000">
+<lightmap min_height="10.00000000" max_height="30.00000000" min_radius="30.00000000" max_radius="30.00000000" min_color="35, 90, 100" max_color="35, 90, 100"/>
+</node_light>
+</children>
+</node_3dobject>
+</xmlres>

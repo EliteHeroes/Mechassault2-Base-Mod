@@ -1,0 +1,7 @@
+[mesh]
+name       = ""
+type       = INDEXEDSTRIP
+vertices   = "Box02.geomVert"
+faces      = "Box02.geomFace"
+material   = "../Materials/shard_new.mat"
+optimized = TRUE

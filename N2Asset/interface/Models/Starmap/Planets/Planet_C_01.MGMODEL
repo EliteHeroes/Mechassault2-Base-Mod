@@ -1,0 +1,44 @@
+<xmlres>
+<material_color_shift version="1" name="moon_01 mat" diffuse="168, 188, 188" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal" colorshift0_color="0, 18, 11" colorshift0_bloom="0.30000001">
+<basetexture filename=".\textures\Surface_C_01.tif" tiling="U_WRAP | V_WRAP" mipmapping="false" mipmap_bias="-3.00000000" filter="FILTER_LINEAR"/>
+</material_color_shift>
+<material_base version="1" name="planet_a_01 mat" diffuse="255, 255, 255" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal">
+<basetexture filename=".\textures\Surface_C_01.tif" tiling="U_WRAP | V_WRAP" mipmapping="false" mipmap_bias="-0.29999998" filter="FILTER_LINEAR"/>
+</material_base>
+<material_base version="1" name="cloud_layer mat" diffuse="228, 193, 0" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="subtractive">
+<basetexture filename=".\textures\Cloud_Layer_A_01.tif" tiling="U_WRAP | V_WRAP" mipmapping="false" mipmap_bias="-3.00000000" filter="FILTER_LINEAR"/>
+</material_base>
+<material_solid version="1" name="atmosphere mat" diffuse="188, 140, 192" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="0.09999999" two_sided="false" shading="gouraud" blending="additive"/>
+<meshxml version="1" name="moon_01 mesh" type="indexedstrip" material="moon_01 mat" vertices="moon_01 verts" indices="moon_01 indices" optimized="true"/>
+<meshxml version="1" name="planet_a_mesh mesh" type="indexedstrip" material="planet_a_01 mat" vertices="planet_a_mesh verts" indices="planet_a_mesh indices" optimized="true"/>
+<meshxml version="1" name="planet_b_cloudlayer mesh" type="indexedstrip" material="cloud_layer mat" vertices="planet_b_cloudlayer verts" indices="planet_b_cloudlayer indices" optimized="true"/>
+<meshxml version="1" name="planet_c_atmosphere mesh" type="indexedstrip" material="atmosphere mat" vertices="planet_c_atmosphere verts" indices="planet_c_atmosphere indices" optimized="true"/>
+<node_generic version="1" name="dummy_planet_c_01" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<children>
+<node_generic version="1" name="planet_orient" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<children>
+<node_generic version="1" name="dummy_moon_01_orienr" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<children>
+<node_generic version="1" name="dummy_moon_01" position="-0.00000008, 0.00000002, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000166" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<children>
+<node_3dobject version="1" name="moon_01" position="1.69999981, -0.00000001, -0.00000016" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="moon_01 mesh"/>
+</node_3dobject>
+</children>
+</node_generic>
+</children>
+</node_generic>
+<node_3dobject version="1" name="planet_a_mesh" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="planet_a_mesh mesh"/>
+</node_3dobject>
+<node_3dobject version="1" name="planet_b_cloudlayer" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="planet_b_cloudlayer mesh"/>
+</node_3dobject>
+<node_3dobject version="1" name="planet_c_atmosphere" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="planet_c_atmosphere mesh"/>
+</node_3dobject>
+</children>
+</node_generic>
+</children>
+</node_generic>
+</xmlres>

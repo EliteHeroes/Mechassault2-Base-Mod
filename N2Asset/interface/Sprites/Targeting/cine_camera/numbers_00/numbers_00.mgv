@@ -1,0 +1,59 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 15
+
+file = "numbers_00_00.tif"
+file = "numbers_00_01.tif"
+file = "numbers_00_02.tif"
+file = "numbers_00_03.tif"
+file = "numbers_00_04.tif"
+file = "numbers_00_05.tif"
+file = "numbers_00_06.tif"
+file = "numbers_00_07.tif"
+file = "numbers_00_08.tif"
+file = "numbers_00_09.tif"
+file = "numbers_00_07.tif"
+file = "numbers_00_09.tif"
+file = "numbers_00_08.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_08.tif"
+file = "numbers_00_09.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_10.tif"
+file = "numbers_00_08.tif"
+file = "numbers_00_09.tif"
+file = "numbers_00_07.tif"
+file = "numbers_00_04.tif"
+file = "numbers_00_06.tif"
+file = "numbers_00_05.tif"
+file = "numbers_00_06.tif"
+file = "numbers_00_03.tif"
+file = "numbers_00_04.tif"
+file = "numbers_00_05.tif"
+file = "numbers_00_03.tif"
+file = "numbers_00_04.tif"
+file = "numbers_00_05.tif"
+file = "numbers_00_06.tif"
+file = "numbers_00_03.tif"
+file = "numbers_00_04.tif"
+file = "numbers_00_02.tif"
+file = "numbers_00_03.tif"
+file = "numbers_00_01.tif"
+file = "numbers_00_01.tif"
+
+
+
+
+

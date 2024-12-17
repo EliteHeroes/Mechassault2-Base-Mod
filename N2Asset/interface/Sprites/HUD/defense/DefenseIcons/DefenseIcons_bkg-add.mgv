@@ -1,0 +1,17 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 32,32
+
+file = "defense_NullSig_bkg-add.tif"
+file = "defense_TargetJamming_bkg-add.tif"
+file = "defense_AMS_bkg-add.tif"
+file = "defense_MA1Shield_bkg-add.tif"
+file = "defense_MA1Shield_bkg-add.tif"
+file = "defense_MA1Shield_bkg-add.tif"
+file = "defense_MA1Shield_bkg-add.tif"
+
+
+

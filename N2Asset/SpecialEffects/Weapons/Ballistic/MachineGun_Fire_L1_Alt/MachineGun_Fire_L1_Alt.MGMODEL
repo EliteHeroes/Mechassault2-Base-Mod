@@ -1,0 +1,7 @@
+<xmlres>
+<node_generic version="1" name="machinegun_fire_l1" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="0.80000001, 0.80000001, 0.80000001" turned_on="true" collidable="true">
+<children>
+<node_light version="1" name="hardware light" position="-0.00810021, -0.02572015, 2.63042927" rot_axis="1.00000000, 0.00000000, 0.00000000" rot_angle="1.57079637" scale="1.25000000, 1.25000000, 1.25000000" turned_on="true" collidable="true" light_type="point" light_on="yes" affects_shadow="false" light_priority="3" light_color="255, 252, 228" light_inner_radius="6.00000000" light_outer_radius="6.00000000"/>
+</children>
+</node_generic>
+</xmlres>

@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "conquest_inactive.tif"
+file = "conquest_active.tif"
+file = "conquest_pressed.tif"
+file = "conquest_disabled.tif"
+

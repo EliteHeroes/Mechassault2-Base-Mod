@@ -1,0 +1,18 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 32,16
+file = "uparrow_static.tif"
+file = "uparrow_pressed.tif"
+
+
+
+
+
+
+
+
+
+

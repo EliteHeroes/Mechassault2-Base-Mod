@@ -1,0 +1,46 @@
+<xmlres>
+<material_base version="1" name="light mat" diffuse="255, 255, 255" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="additive">
+<basetexture filename=".\textures\Light_021_spot.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_base>
+<material_color_shift version="1" name="rim mat" diffuse="186, 227, 228" selfillum="32, 35, 35" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal" colorshift0_color="12, 54, 53" colorshift0_bloom="0.30000001">
+<basetexture filename=".\textures\Misc_150_HouseDavion_Sword.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_color_shift>
+<material_solid version="1" name="dome mat" diffuse="163, 191, 223" selfillum="18, 31, 46" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal"/>
+<material_solid version="1" name="panel mat" diffuse="17, 27, 81" selfillum="18, 31, 46" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal"/>
+<material_solid version="1" name="red_rim mat" diffuse="80, 17, 17" selfillum="8, 3, 3" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal"/>
+<material_color_shift version="1" name="shards mat" diffuse="186, 227, 228" selfillum="32, 35, 35" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal" colorshift0_color="12, 54, 53" colorshift0_bloom="0.30000001">
+<basetexture filename=".\textures\Misc_150_HouseDavion_Sword.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_color_shift>
+<meshxml version="1" name="rectangle06 mesh" type="indexedlist" material="light mat" vertices="rectangle06 verts" indices="rectangle06 indices" optimized="true"/>
+<meshxml version="1" name="base_rim mesh" type="indexedstrip" material="rim mat" vertices="base_rim verts" indices="base_rim indices" optimized="true"/>
+<meshxml version="1" name="comstar_outer mesh" type="indexedstrip" material="dome mat" vertices="comstar_outer verts" indices="comstar_outer indices" optimized="true"/>
+<meshxml version="1" name="faceplate mesh" type="indexedstrip" material="panel mat" vertices="faceplate verts" indices="faceplate indices" optimized="true"/>
+<meshxml version="1" name="rim mesh" type="indexedstrip" material="red_rim mat" vertices="rim verts" indices="rim indices" optimized="true"/>
+<meshxml version="1" name="sun_globe mesh" type="indexedstrip" material="shards mat" vertices="sun_globe verts" indices="sun_globe indices" optimized="true"/>
+<node_generic version="1" name="comstar" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<bounding_volume>
+<bv_sphere origin="0.00000000, 0.00000000, 0.00000000" radius="1.50000000"/>
+</bounding_volume>
+<children>
+<node_light version="1" name="omni01" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false" light_type="point" light_on="yes" affects_shadow="true" light_priority="3" light_color="255, 253, 242" light_inner_radius="80.00000000" light_outer_radius="200.00000000"/>
+<node_facing version="1" name="rectangle06" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000019" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="rectangle06 mesh"/>
+</node_facing>
+<node_facing version="1" name="base_rim" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="0.27486706, 0.27486706, 0.27486706" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="base_rim mesh"/>
+</node_facing>
+<node_facing version="1" name="comstar_outer" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="0.62589979, 0.62589979, 0.62589979" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="comstar_outer mesh"/>
+</node_facing>
+<node_facing version="1" name="faceplate" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="0.63841778, 0.63841778, 0.63841778" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="faceplate mesh"/>
+</node_facing>
+<node_facing version="1" name="rim" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000024" scale="0.62589979, 0.62590003, 0.62590003" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="rim mesh"/>
+</node_facing>
+<node_facing version="1" name="sun_globe" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="0.62589979, 0.62589979, 0.62589979" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="sun_globe mesh"/>
+</node_facing>
+</children>
+</node_generic>
+</xmlres>

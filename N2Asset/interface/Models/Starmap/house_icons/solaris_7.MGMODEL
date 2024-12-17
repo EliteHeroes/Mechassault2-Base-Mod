@@ -1,0 +1,38 @@
+<xmlres>
+<material_base version="1" name="light mat" diffuse="255, 255, 255" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="additive">
+<basetexture filename=".\textures\Light_032_spot.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_base>
+<material_color_shift version="1" name="frame mat" diffuse="218, 175, 3" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal" colorshift0_color="106, 81, 3" colorshift0_bloom="0.15000001">
+<basetexture filename=".\textures\Misc_149_HouseDavion_Yellow.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_color_shift>
+<material_color_shift version="1" name="star1 mat" diffuse="186, 227, 228" selfillum="32, 35, 35" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal" colorshift0_color="12, 54, 53" colorshift0_bloom="0.15000001">
+<basetexture filename=".\textures\Misc_150_HouseDavion_Sword.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_color_shift>
+<material_color_shift version="1" name="star2 mat" diffuse="25, 82, 84" selfillum="32, 35, 35" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal" colorshift0_color="12, 29, 28" colorshift0_bloom="0.15000001">
+<basetexture filename=".\textures\Misc_150_HouseDavion_Sword.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_color_shift>
+<meshxml version="1" name="rectangle05 mesh" type="indexedlist" material="light mat" vertices="rectangle05 verts" indices="rectangle05 indices" optimized="true"/>
+<meshxml version="1" name="frame02 mesh" type="indexedstrip" material="frame mat" vertices="frame02 verts" indices="frame02 indices" optimized="true"/>
+<meshxml version="1" name="star mesh" type="indexedlist" material="star1 mat" vertices="star verts" indices="star indices" optimized="true"/>
+<meshxml version="1" name="star02 mesh" type="indexedlist" material="star2 mat" vertices="star02 verts" indices="star02 indices" optimized="true"/>
+<node_generic version="1" name="solaris_7" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<bounding_volume>
+<bv_sphere origin="0.00000000, 0.00000000, 0.00000000" radius="1.05660653"/>
+</bounding_volume>
+<children>
+<node_generic version="1" name="omni01" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false"/>
+<node_facing version="1" name="rectangle05" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000019" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="rectangle05 mesh"/>
+</node_facing>
+<node_facing version="1" name="frame02" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="frame02 mesh"/>
+</node_facing>
+<node_facing version="1" name="star" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="0.27995110, 0.27995110, 0.27995110" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="star mesh"/>
+</node_facing>
+<node_facing version="1" name="star02" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="0.27995110, 0.27995110, 0.27995110" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="star02 mesh"/>
+</node_facing>
+</children>
+</node_generic>
+</xmlres>

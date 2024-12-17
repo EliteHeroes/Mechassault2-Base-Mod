@@ -1,0 +1,21 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 2.0.0.395
+;Created by czalek
+;Created on Wed Oct 22 16:46:05 2003
+
+
+[material]
+type       = SOLID
+name           = "carat"
+diff_color     = 0, 0, 0
+selfillum_color= 112, 16, 0
+shininess     = 0
+shin_strength = 0
+spec_color    = 206, 227, 242
+opacity       = 0.67
+two_sided     = true
+shading       = flat
+blending      = additive
+
+

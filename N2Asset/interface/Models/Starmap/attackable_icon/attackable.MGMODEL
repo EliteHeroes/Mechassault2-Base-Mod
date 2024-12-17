@@ -1,0 +1,16 @@
+<xmlres>
+<material_solid version="1" name="attackable mat" diffuse="0, 0, 0" selfillum="30, 61, 133" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="flat" blending="additive"/>
+<material_solid version="1" name="attackable_rim mat" diffuse="0, 0, 0" selfillum="163, 191, 223" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="flat" blending="additive"/>
+<meshxml version="1" name="attackable mesh" type="indexedlist" material="attackable mat" vertices="attackable verts" indices="attackable indices" optimized="true"/>
+<meshxml version="1" name="attackable_rim mesh" type="indexedlist" material="attackable_rim mat" vertices="attackable_rim verts" indices="attackable_rim indices" optimized="true"/>
+<node_generic version="1" name="attackable_icon" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<children>
+<node_facing version="1" name="attackable" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000050" scale="2.00000000, 2.00000000, 2.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="attackable mesh"/>
+</node_facing>
+<node_facing version="1" name="attackable_rim" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000059" scale="2.00000000, 2.00000000, 2.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="attackable_rim mesh"/>
+</node_facing>
+</children>
+</node_generic>
+</xmlres>

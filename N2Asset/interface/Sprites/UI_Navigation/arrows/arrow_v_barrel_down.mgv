@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 64,16
+file = "arrow_v_barrel_down_static.tif"
+file = "arrow_v_barrel_down_pressed.tif"
+
+

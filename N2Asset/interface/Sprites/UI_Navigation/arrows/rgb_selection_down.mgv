@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 32,16
+file = "downarrow_static.tif"
+file = "downarrow_pressed.tif"
+
+

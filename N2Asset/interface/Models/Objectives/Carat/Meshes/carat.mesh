@@ -1,0 +1,7 @@
+[mesh]
+name       = "carat"
+type       = INDEXEDSTRIP
+vertices   = "carat.geomVert"
+faces      = "carat.geomFace"
+material   = "../Materials/carat.mat"
+optimized = TRUE

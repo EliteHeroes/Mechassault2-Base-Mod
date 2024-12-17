@@ -1,0 +1,52 @@
+
+[fileinfo]
+file_version = 1.20												; Current file version
+
+[mgFont]
+FontName  = Digital Readout Thick Reg							; True type Family Name & Rendered Point Size
+PointSize = 16													; Point Size
+Flags	  = 0x00000001											; Font Flags
+Width	  = 8													; Max Cell Width
+Height	  = 15													; Max Cell Height
+Ascent	  = 13													; Ascent of font
+GlobalSpacing = 3												; Extra glyph spacing
+FirstChar = 0x0009												; First character code in font
+LastChar  = 0x0039												; Last character code in font
+BreakChar = 0x0020												; Space character code in font
+DefaultChar = 0x001f											; Default character code in font
+NumCodes  = 15													; Number of characters
+Ranges	  = 5													; Number of character ranges
+NumPages  = 1													; Number of texture pages
+EdgeType  = Fine												; Edge rendering
+material  = "DigitalReadoutThickReg16_01.tif"					; Name of texture file
+
+[GlyphRangeData]
+; Line Format
+; uint16, uint16, uint16
+; Start, End, Length
+range	  = 9, 10, 1
+range	  = 31, 33, 2
+range	  = 44, 45, 1
+range	  = 46, 47, 1
+range	  = 48, 58, 10
+
+[GlyphData]
+; Line Format
+; uint16, uint16, int16, int16, int16, int16  int16,   int16,   int16, int16,  float, float, float, float, int
+; Code,   Flags,      A,     B,     C, A+B+C, XOffset, YOffset, Width, Height, UV1.u, UV1.v, UV2.u, UV2.v, Page
+glyph	  = 0x0009, 0x0008, 0, 9, 54, 63, 0, 0, 0, 0, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0
+glyph	  = 0x001f, 0x0002, 1, 6, 1, 8, 1, 0, 6, 13, 0.3125000000, 0.1875000000, 0.4062500000, 0.3906250000, 0
+glyph	  = 0x0020, 0x0008, 0, 1, 6, 7, 0, 0, 0, 0, 0.0000000000, 0.0000000000, 0.0000000000, 0.0000000000, 0
+glyph	  = 0x002c, 0x0002, 0, 2, 0, 2, 0, 12, 2, 2, 0.9375000000, 0.0468750000, 0.9687500000, 0.0781250000, 0
+glyph	  = 0x002e, 0x0002, 0, 2, 0, 2, -1, 11, 3, 2, 0.9375000000, 0.0000000000, 0.9843750000, 0.0312500000, 0
+glyph	  = 0x0030, 0x0002, 0, 8, -1, 7, 0, 2, 8, 11, 0.4687500000, 0.0000000000, 0.5937500000, 0.1718750000, 0
+glyph	  = 0x0031, 0x0002, 6, 3, -2, 7, 5, 2, 4, 11, 0.5625000000, 0.1875000000, 0.6250000000, 0.3593750000, 0
+glyph	  = 0x0032, 0x0002, 0, 8, -1, 7, 0, 2, 8, 11, 0.7812500000, 0.0000000000, 0.9062500000, 0.1718750000, 0
+glyph	  = 0x0033, 0x0002, 1, 8, -2, 7, 1, 2, 8, 11, 0.0000000000, 0.0000000000, 0.1250000000, 0.1718750000, 0
+glyph	  = 0x0034, 0x0002, 1, 7, -1, 7, 1, 2, 8, 11, 0.1562500000, 0.1875000000, 0.2812500000, 0.3593750000, 0
+glyph	  = 0x0035, 0x0002, 1, 7, -1, 7, 1, 2, 8, 11, 0.6250000000, 0.0000000000, 0.7500000000, 0.1718750000, 0
+glyph	  = 0x0036, 0x0002, 0, 8, -1, 7, 0, 2, 8, 11, 0.3125000000, 0.0000000000, 0.4375000000, 0.1718750000, 0
+glyph	  = 0x0037, 0x0002, 3, 6, -2, 7, 3, 2, 6, 11, 0.4375000000, 0.1875000000, 0.5312500000, 0.3593750000, 0
+glyph	  = 0x0038, 0x0002, 0, 8, -1, 7, 0, 2, 8, 11, 0.1562500000, 0.0000000000, 0.2812500000, 0.1718750000, 0
+glyph	  = 0x0039, 0x0002, 1, 8, -2, 7, 1, 2, 8, 11, 0.0000000000, 0.1875000000, 0.1250000000, 0.3593750000, 0
+

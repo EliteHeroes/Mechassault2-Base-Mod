@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "removeplayer_inactive.tif"
+file = "removeplayer_active.tif"
+file = "removeplayer_pressed.tif"
+file = "removeplayer_disabled.tif"
+

@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "gamesettings_inactive.tif"
+file = "gamesettings_active.tif"
+file = "gamesettings_pressed.tif"
+file = "gamesettings_disabled.tif"
+

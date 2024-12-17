@@ -1,0 +1,17 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 0.5
+size = 64,64
+
+file = "davion_status.tif"
+file = "Kurita_status.tif"
+file = "steiner_status.tif"
+file = "marik_status.tif"
+file = "ghostbear_status.tif"
+file = "HOB_status.tif"
+file = "HellsHorses_status.tif"
+file = "JadeFalcon_status.tif"
+file = "liao_status.tif"
+file = "WolfDragoons_status.tif"

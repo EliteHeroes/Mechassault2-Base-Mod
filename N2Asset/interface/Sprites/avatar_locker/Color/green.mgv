@@ -1,0 +1,9 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "icon_G_inactive.tif"
+file = "icon_G_active.tif"
+file = "icon_G_disabled.tif"
+

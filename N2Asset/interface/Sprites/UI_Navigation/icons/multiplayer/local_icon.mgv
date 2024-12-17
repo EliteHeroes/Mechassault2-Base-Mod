@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "Local_inactive.tif"
+file = "Local_active.tif"
+file = "Local_pressed.tif"
+file = "Local_disabled.tif"
+

@@ -1,0 +1,106 @@
+<mgParticle name="My Particle Effect" version="3.00000000" lod_start="250.00000000" lod_range="100.00000000">
+<emitter type="mgParticleEmitter" name="New Emitter" cycle_mode="MODE_LOOPED" cycle_length="1.00000000" emit_worldspace="false" emit_while_stopped="false">
+<source type="mgPointSource" pitch_start_channel="-1" pitch_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_start>
+<pitch_width variance="0.00000000">
+<key time="0.00000000" value="45.00000000"/>
+</pitch_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" offset="0.00000000, 0.00000000, 0.00000000" rate_channel="-1" lifespan_channel="-1" gravity="0.00000000" drag="0.00000000" initial_velocity_channel="-1">
+<rate variance="0.00000000">
+<key time="0.00000000" value="10.00000000"/>
+</rate>
+<lifespan variance="0.00000000">
+<key time="0.00000000" value="0.05000000"/>
+</lifespan>
+<prototype type="mgSpriteType" name="New Type" version="3.59999990" facing_camera="true" orient_to_velocity="false" stretch_to_velocity="1" sorting="SORTING_NONE" spin_offset="6.28318548" pivot="0.00000000, 0.00000000" anim_offset="0.00000000" chop_effect="false" limit_screen_size="true">
+<size variance="0.00000000">
+<key time="0.00000000" value="2.77533054"/>
+<key time="1.00000000" value="4.62555075"/>
+</size>
+<aspect_ratio variance="0.00000000">
+<key time="0.00000000" value="1.00000000"/>
+</aspect_ratio>
+<spin variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</spin>
+<color variance="0.00000000">
+<key time="0.00000000" value="255, 255, 255, 255"/>
+<key time="1.00000000" value="255, 255, 255, 255"/>
+</color>
+<material type="BASE" shade_mode="material_only" blend_mode="additive">
+<base_texture name="\Texture_Dump\SpecialEffects\Wpn_MachineGun_01_Alt.tif" address_u="wrap" address_w="clamp"/>
+</material>
+<anim variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</anim>
+</prototype>
+<initial_velocity variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</initial_velocity>
+</system>
+</emitter>
+<emitter type="mgParticleEmitter" name="New Emitter" cycle_mode="MODE_LOOPED" cycle_length="1.00000000" emit_worldspace="false" emit_while_stopped="false">
+<source type="mgPointSource" pitch_start_channel="-1" pitch_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_start>
+<pitch_width variance="0.00000000">
+<key time="0.00000000" value="45.00000000"/>
+</pitch_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" offset="0.00000000, 0.00000000, 0.00000000" rate_channel="-1" lifespan_channel="-1" gravity="0.00000000" drag="0.00000000" initial_velocity_channel="-1">
+<rate variance="0.00000000">
+<key time="0.00000000" value="10.00000000"/>
+</rate>
+<lifespan variance="0.00000000">
+<key time="0.00000000" value="0.05000000"/>
+</lifespan>
+<prototype type="mgSceneNodeType" name="New Type" version="3.59999990" orient_to_velocity="false" yaw_offset="0.00000000" pitch_offset="0.00000000" roll_offset="6.28318548" node_name="\SpecialEffects\Weapons\Ballistic\MachineGun_Fire_L1\MachineGun_Fire_L1_Model_Alt.MGMODEL">
+<size variance="0.29999998">
+<key time="0.00000000" value="1.05726874"/>
+<key time="0.48089173" value="1.18942726"/>
+</size>
+<opacity variance="0.00000000">
+<key time="0.00000000" value="1.00000000"/>
+</opacity>
+<yaw variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</yaw>
+<pitch variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch>
+<roll variance="0.01745329">
+<key time="0.00000000" value="4.04116774"/>
+<key time="1.00000000" value="29.15206909"/>
+</roll>
+</prototype>
+<initial_velocity variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</initial_velocity>
+</system>
+</emitter>
+<emitter type="mgParticleEmitter" name="shell" cycle_mode="MODE_ONEWAY" cycle_length="0.20000000" emit_worldspace="true" emit_while_stopped="false">
+<source type="mgPointSource" pitch_start_channel="-1" pitch_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="21.34277344"/>
+</pitch_start>
+<pitch_width variance="0.00000000">
+<key time="0.00000000" value="8.98962402"/>
+</pitch_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" offset="0.00000000, 0.69999999, -4.00000000" rate_channel="-1" lifespan_channel="-1" gravity="9.80000019" drag="0.00000000" initial_velocity_channel="-1">
+<rate variance="0.00000000">
+<key time="0.00000000" value="7.00000000"/>
+</rate>
+<lifespan variance="0.00000000">
+<key time="0.00000000" value="2.00000000"/>
+</lifespan>
+<initial_velocity variance="0.00000000">
+<key time="0.00000000" value="3.00000000"/>
+</initial_velocity>
+</system>
+</emitter>
+</mgParticle>

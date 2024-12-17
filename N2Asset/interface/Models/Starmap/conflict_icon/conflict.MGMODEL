@@ -1,0 +1,15 @@
+<xmlres>
+<material_solid version="1" name="conflict mat" diffuse="0, 0, 0" selfillum="128, 24, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="translucent" blending="additive"/>
+<meshxml version="1" name="conflict mesh" type="indexedstrip" material="conflict mat" vertices="conflict verts" indices="conflict indices" optimized="true"/>
+<meshxml version="1" name="conflict01 mesh" type="indexedstrip" material="conflict mat" vertices="conflict01 verts" indices="conflict01 indices" optimized="true"/>
+<node_generic version="1" name="conflict_icon" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<children>
+<node_facing version="1" name="conflict" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.43999982, 1.43999982, 1.43999982" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="conflict mesh"/>
+</node_facing>
+<node_facing version="1" name="conflict01" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.29599988, 1.29599988, 1.29599988" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="conflict01 mesh"/>
+</node_facing>
+</children>
+</node_generic>
+</xmlres>

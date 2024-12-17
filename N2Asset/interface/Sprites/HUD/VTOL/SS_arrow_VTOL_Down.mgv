@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 32,16
+file = "SS_arrow_VTOL_Down_static.tif"
+file = "SS_arrow_VTOL_Down_pressed.tif"
+
+

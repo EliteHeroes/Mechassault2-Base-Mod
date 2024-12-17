@@ -1,0 +1,21 @@
+<xmlres>
+<material_base version="1" name="crossbow_l3_missile mat" diffuse="255, 255, 255" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal">
+<basetexture filename="..\..\..\..\Texture_Dump\SpecialEffects\Wpn_Missile_01_Alt.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="-2.00000000" filter="FILTER_LINEAR"/>
+</material_base>
+<material_base version="1" name="crossbow_l3_glow mat" diffuse="255, 255, 255" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="material_only" blending="additive">
+<basetexture filename="..\..\..\..\Texture_Dump\SpecialEffects\Wpn_MissileGlow_yellow.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="-2.00000000" filter="FILTER_LINEAR"/>
+</material_base>
+<meshxml version="1" name="crossbow_l3_missile mesh" type="indexedlist" material="crossbow_l3_missile mat" vertices="crossbow_l3_missile verts" indices="crossbow_l3_missile indices" optimized="true"/>
+<meshxml version="1" name="crossbow_l3_glow mesh" type="indexedstrip" material="crossbow_l3_glow mat" vertices="crossbow_l3_glow verts" indices="crossbow_l3_glow indices" optimized="true"/>
+<node_3dobject version="1" name="crossbow_l3_missile" position="-0.00396169, 0.02104195, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="crossbow_l3_missile mesh"/>
+<children>
+<node_facing version="1" name="crossbow_l3_glow" position="0.01582211, -0.00403140, -0.36353207" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="false" bounds_cover_children="false">
+<mesh name="crossbow_l3_glow mesh"/>
+</node_facing>
+<node_light version="1" name="hardware_light" position="-0.00160952, -0.02104195, -0.00153890" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false" light_type="point" light_on="yes" affects_shadow="true" light_priority="3" light_color="254, 252, 235" light_inner_radius="10.00000000" light_outer_radius="20.00000000">
+<lightmap min_height="5.00000000" max_height="20.00000000" min_radius="20.00000000" max_radius="20.00000000" min_color="100, 100, 100" max_color="100, 100, 100"/>
+</node_light>
+</children>
+</node_3dobject>
+</xmlres>

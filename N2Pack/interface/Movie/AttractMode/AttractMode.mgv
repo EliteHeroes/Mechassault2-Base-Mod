@@ -1,0 +1,14 @@
+[Movie]
+Type	  = MOVIE					; MOVIE or SPRITE
+ImageType = X8R8G8B8					; 
+AudioType = stereo					; mono, stereo, 5.1, 5.0, 4.0, 2.0, 1.0, none
+VirtualAudio = true
+SrcPath	  = "D:\Movie"
+file	  = Attract.bik
+ntsc_pal  = true
+play	  = true
+loop	  = false
+
+
+
+

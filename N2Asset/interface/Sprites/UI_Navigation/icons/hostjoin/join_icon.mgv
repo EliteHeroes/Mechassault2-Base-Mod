@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "join_inactive.tif"
+file = "join_active.tif"
+file = "join_pressed.tif"
+file = "join_disabled.tif"
+

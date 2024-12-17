@@ -1,0 +1,9 @@
+<xmlres>
+<material_base version="1" name="standardmaterial mat" diffuse="255, 255, 255" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal">
+<basetexture filename=".\textures\Connector_Neutral.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_base>
+<meshxml version="1" name="cylinder01 mesh" type="indexedlist" material="standardmaterial mat" vertices="cylinder01 verts" indices="cylinder01 indices" optimized="true"/>
+<node_3dobject version="1" name="cylinder01" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="cylinder01 mesh"/>
+</node_3dobject>
+</xmlres>

@@ -1,0 +1,7 @@
+[mesh]
+name       = "reticle shape03"
+type       = INDEXEDSTRIP
+vertices   = "reticle shape03.geomVert"
+faces      = "reticle shape03.geomFace"
+material   = "../Materials/3D Reticle.mat"
+optimized = TRUE

@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = false
+FrameRate = 10
+file = "WarUpdates_inactive.tif"
+file = "WarUpdates_active.tif"
+file = "WarUpdates_pressed.tif"
+file = "WarUpdates_disabled.tif"
+

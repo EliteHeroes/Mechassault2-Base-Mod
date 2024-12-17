@@ -1,0 +1,21 @@
+<xmlres>
+<material_solid version="1" name="bird_full mat" diffuse="116, 60, 0" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="material_only" blending="alpha"/>
+<material_specular_mask version="1" name="attackable mat" diffuse="32, 32, 32" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="1.00000000" spec_color="206, 206, 242" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal" specular_bloom="0.49000001">
+<basetexture filename=".\textures\house_white.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_specular_mask>
+<meshxml version="1" name="faceplate mesh" type="indexedstrip" material="bird_full mat" vertices="faceplate verts" indices="faceplate indices" optimized="true"/>
+<meshxml version="1" name="wolfdragoons mesh" type="indexedstrip" material="attackable mat" vertices="wolfdragoons verts" indices="wolfdragoons indices" optimized="true"/>
+<node_generic version="1" name="clan_wolfdragoons" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<bounding_volume>
+<bv_sphere origin="0.00000000, 0.00000000, 0.00000000" radius="4.80791950"/>
+</bounding_volume>
+<children>
+<node_facing version="1" name="faceplate" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="4.19349861, 4.19349861, 4.19349861" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="faceplate mesh"/>
+</node_facing>
+<node_facing version="1" name="wolfdragoons" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="wolfdragoons mesh"/>
+</node_facing>
+</children>
+</node_generic>
+</xmlres>

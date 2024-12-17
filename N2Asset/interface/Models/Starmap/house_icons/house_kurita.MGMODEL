@@ -1,0 +1,21 @@
+<xmlres>
+<material_solid version="1" name="attackable_rim mat" diffuse="0, 0, 0" selfillum="96, 0, 0" shininess="0.00000000" shin_strength="0.00000000" spec_color="206, 227, 242" opacity="1.00000000" two_sided="false" shading="material_only" blending="normal"/>
+<material_specular_mask version="1" name="attackable mat" diffuse="32, 32, 32" selfillum="0, 0, 0" shininess="0.00000000" shin_strength="1.00000000" spec_color="242, 210, 206" opacity="1.00000000" two_sided="false" shading="gouraud" blending="normal" specular_bloom="0.49000001">
+<basetexture filename=".\textures\house_white.tif" tiling="U_WRAP | V_WRAP" mipmapping="true" mipmap_bias="0.00000000" filter="FILTER_LINEAR"/>
+</material_specular_mask>
+<meshxml version="1" name="faceplate mesh" type="indexedstrip" material="attackable_rim mat" vertices="faceplate verts" indices="faceplate indices" optimized="true"/>
+<meshxml version="1" name="kurita mesh" type="indexedstrip" material="attackable mat" vertices="kurita verts" indices="kurita indices" optimized="true"/>
+<node_generic version="1" name="house_kurita" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="1.00000000, 1.00000000, 1.00000000" turned_on="true" collidable="true" bounds_cover_children="false">
+<bounding_volume>
+<bv_sphere origin="0.00000000, 0.00000000, 0.00000000" radius="4.80791950"/>
+</bounding_volume>
+<children>
+<node_facing version="1" name="faceplate" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="4.19349861, 4.19349861, 4.19349861" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="faceplate mesh"/>
+</node_facing>
+<node_facing version="1" name="kurita" position="0.00000000, 0.00000000, 0.00000000" rot_axis="-1.00000000, 0.00000000, 0.00000000" rot_angle="0.00000000" scale="62.76129150, 62.76226807, 62.76129150" turned_on="true" collidable="true" bounds_cover_children="false">
+<mesh name="kurita mesh"/>
+</node_facing>
+</children>
+</node_generic>
+</xmlres>

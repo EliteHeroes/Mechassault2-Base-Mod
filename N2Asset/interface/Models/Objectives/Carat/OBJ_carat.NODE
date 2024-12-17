@@ -1,0 +1,20 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 2.0.0.395
+;Created by czalek
+;Created on Wed Oct 22 16:46:05 2003
+
+
+[carat]
+type         = 3DOBJECT
+position     = -0.00016674, 0.00000000, -0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.43053669, 0.71059996, 0.71059996
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/carat.mesh"
+
+
+; Hierarchy dump:
+; carat

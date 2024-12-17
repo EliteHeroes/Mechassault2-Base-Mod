@@ -1,0 +1,109 @@
+<mgParticle name="My Particle Effect" version="3.00000000" lod_start="250.00000000" lod_range="100.00000000">
+<emitter type="mgParticleEmitter" name="New Emitter" cycle_mode="MODE_LOOPED" cycle_length="10.00000000" emit_worldspace="true" emit_while_stopped="false">
+<source type="mgSphereSource" pitch_start_channel="-1" pitch_width_channel="-1" radius_start_channel="-1" radius_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_start>
+<pitch_width variance="0.00000000">
+<key time="0.00000000" value="180.00000000"/>
+</pitch_width>
+<radius_start variance="0.00000000">
+<key time="0.00000000" value="1.00000000"/>
+</radius_start>
+<radius_width variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</radius_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" offset="0.00000000, 0.00000000, 0.00000000" rate_channel="-1" lifespan_channel="-1" gravity="0.00000000" drag="0.00000000" initial_velocity_channel="-1">
+<rate variance="0.00000000">
+<key time="0.00000000" value="1.00000000"/>
+</rate>
+<lifespan variance="0.00000000">
+<key time="0.00000000" value="10.00000000"/>
+</lifespan>
+<prototype type="mgSpriteType" name="Ring" version="3.70000005" facing="FACING_CAMERA" orient_to_velocity="false" stretch_to_velocity="1" sorting="SORTING_NONE" spin_offset="0.00000000" pivot="0.00000000, 0.00000000" anim_offset="0.00000000" chop_effect="false" limit_screen_size="true">
+<size variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="0.39808917" value="0.50000000"/>
+<key time="1.00000000" value="3.00000000"/>
+</size>
+<aspect_ratio variance="0.00000000">
+<key time="0.00000000" value="1.00000000"/>
+</aspect_ratio>
+<spin variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="0.99363059" value="1.04719758"/>
+</spin>
+<color variance="0.00000000">
+<key time="0.00000000" value="3, 255, 223, 255"/>
+<key time="0.49275362" value="0, 43, 86, 255"/>
+<key time="1.00000000" value="0, 0, 0, 0"/>
+</color>
+<material type="BASE" shade_mode="material_only" blend_mode="additive">
+<base_texture name="\Interface\Models\Starmap\Planets\textures\Shared_Shockwave.tif" address_u="wrap" address_w="clamp"/>
+</material>
+<anim variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="0.99363059" value="120.00000000"/>
+</anim>
+</prototype>
+<prototype type="mgSpriteType" name="Fire2" version="3.70000005" facing="FACING_CAMERA" orient_to_velocity="false" stretch_to_velocity="1" sorting="SORTING_NONE" spin_offset="1.04719758" pivot="0.00000000, 0.00000000" anim_offset="0.00000000" chop_effect="false" limit_screen_size="true">
+<size variance="0.00000000">
+<key time="0.00000000" value="2.00000000"/>
+<key time="0.99681532" value="2.00000000"/>
+</size>
+<aspect_ratio variance="1.00000000">
+<key time="0.00000000" value="1.00000000"/>
+<key time="0.93630576" value="1.00000000"/>
+</aspect_ratio>
+<spin variance="1.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="0.99363059" value="-1.04719758"/>
+</spin>
+<color variance="0.00000000">
+<key time="0.00000000" value="255, 255, 255, 0"/>
+<key time="0.10724638" value="255, 241, 32, 248"/>
+<key time="0.21739130" value="235, 150, 9, 235"/>
+<key time="1.00000000" value="0, 0, 0, 0"/>
+</color>
+<material type="BASE" shade_mode="material_only" blend_mode="additive">
+<base_texture name="\Interface\Models\Starmap\Planets\textures\Wpn_Flamer_Anim.tif" address_u="wrap" address_w="clamp"/>
+</material>
+<anim variance="1.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="0.99363059" value="120.00000000"/>
+</anim>
+</prototype>
+<prototype type="mgSpriteType" name="Fire1" version="3.70000005" facing="FACING_CAMERA" orient_to_velocity="false" stretch_to_velocity="1" sorting="SORTING_NONE" spin_offset="0.00000000" pivot="0.00000000, 0.00000000" anim_offset="0.00000000" chop_effect="false" limit_screen_size="true">
+<size variance="0.00000000">
+<key time="0.00000000" value="2.00000000"/>
+<key time="0.99681532" value="2.00000000"/>
+</size>
+<aspect_ratio variance="1.00000000">
+<key time="0.00000000" value="1.00000000"/>
+<key time="0.98407644" value="1.00000000"/>
+</aspect_ratio>
+<spin variance="0.99799997">
+<key time="0.00000000" value="0.00000000"/>
+<key time="0.99363059" value="1.04719758"/>
+</spin>
+<color variance="0.00000000">
+<key time="0.00000000" value="255, 255, 255, 0"/>
+<key time="0.12173913" value="255, 241, 32, 248"/>
+<key time="0.20869565" value="235, 150, 9, 235"/>
+<key time="1.00000000" value="0, 0, 0, 0"/>
+</color>
+<material type="BASE" shade_mode="material_only" blend_mode="additive">
+<base_texture name="\Interface\Models\Starmap\Planets\textures\Wpn_Flamer_Anim.tif" address_u="wrap" address_w="clamp"/>
+</material>
+<anim variance="1.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="0.99363059" value="120.00000000"/>
+</anim>
+</prototype>
+<initial_velocity variance="0.00000000">
+<key time="0.00000000" value="0.01000000"/>
+</initial_velocity>
+</system>
+</emitter>
+</mgParticle>
