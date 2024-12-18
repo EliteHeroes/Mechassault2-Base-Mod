@@ -1,0 +1,330 @@
+<mgParticle name="My Particle Effect" version="3.00000000" lod_start="250.00000000" lod_range="100.00000000">
+<emitter type="mgParticleEmitter" name="electric" cycle_mode="MODE_LOOPED" cycle_length="0.10000000" emit_worldspace="false" emit_while_stopped="false">
+<source type="mgPointSource" pitch_start_channel="-1" pitch_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_start>
+<pitch_width variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" rate_channel="-1" lifespan_channel="-1" gravity="0.00000000" drag="0.00000000" initial_velocity_channel="-1">
+<rate variance="0.34999999">
+<key time="0.00000000" value="5.00000000"/>
+</rate>
+<lifespan variance="0.00000000">
+<key time="0.00000000" value="0.13000000"/>
+</lifespan>
+<prototype type="mgSpriteType" name="New Type" version="3.40000010" facing_camera="true" orient_to_velocity="false" stretch_to_velocity="1" sort_with_scene="false" spin_offset="6.28318548" pivot="0.00000000, 0.00000000" anim_offset="0.00000000">
+<size variance="0.00000000">
+<key time="0.00000000" value="10.96881866"/>
+</size>
+<aspect_ratio variance="0.00000000">
+<key time="0.00000000" value="1.00000000"/>
+</aspect_ratio>
+<spin variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="1.00000000" value="0.00000000"/>
+</spin>
+<color variance="0.00000000">
+<key time="0.00000000" value="255, 255, 255, 255"/>
+<key time="0.10434783" value="240, 241, 254, 0"/>
+<key time="0.22028986" value="223, 225, 253, 255"/>
+<key time="0.32463768" value="208, 210, 252, 0"/>
+<key time="0.41159421" value="196, 198, 251, 255"/>
+<key time="0.52173913" value="181, 183, 250, 0"/>
+<key time="0.60579711" value="169, 172, 249, 255"/>
+<key time="0.71594203" value="153, 158, 248, 0"/>
+<key time="0.80579710" value="141, 147, 248, 255"/>
+<key time="1.00000000" value="118, 126, 250, 0"/>
+</color>
+<material type="COLOR_SHIFT" shade_mode="material_only" blend_mode="additive" colorshift0="0.00000000, 0.00000000, 0.00000000, 0.69999999">
+<base_texture name="\Texture_Dump\SpecialEffects\MD_BA_Electric.tif" address_u="wrap" address_w="clamp"/>
+</material>
+<anim variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</anim>
+</prototype>
+<initial_velocity variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</initial_velocity>
+</system>
+</emitter>
+<emitter type="mgParticleEmitter" name="smoke" cycle_mode="MODE_LOOPED" cycle_length="0.10000000" emit_worldspace="true" emit_while_stopped="false">
+<source type="mgPointSource" pitch_start_channel="-1" pitch_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_start>
+<pitch_width variance="0.00000000">
+<key time="0.00000000" value="7.13656378"/>
+</pitch_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" rate_channel="-1" lifespan_channel="-1" gravity="0.00000000" drag="6.00000000" initial_velocity_channel="-1">
+<rate variance="0.00000000">
+<key time="0.00000000" value="25.00000000"/>
+</rate>
+<lifespan variance="0.44999999">
+<key time="0.00000000" value="1.50000000"/>
+</lifespan>
+<prototype type="mgSpriteType" name="New Type" version="3.40000010" facing_camera="true" orient_to_velocity="false" stretch_to_velocity="1" sort_with_scene="false" spin_offset="6.28318548" pivot="0.00000000, 0.00000000" anim_offset="0.00000000">
+<size variance="0.00000000">
+<key time="0.00000000" value="8.45814991"/>
+<key time="1.00000000" value="7.24542475"/>
+</size>
+<aspect_ratio variance="0.00000000">
+<key time="0.00000000" value="1.00000000"/>
+</aspect_ratio>
+<spin variance="0.00000000">
+<key time="0.00000000" value="0.83037680"/>
+<key time="0.20700637" value="0.49822631"/>
+<key time="0.55414015" value="0.38751018"/>
+<key time="0.81528664" value="0.27679193"/>
+</spin>
+<color variance="0.00000000">
+<key time="0.00000000" value="194, 214, 248, 0"/>
+<key time="0.03478261" value="138, 171, 241, 255"/>
+<key time="0.50144929" value="127, 95, 242, 127"/>
+<key time="1.00000000" value="135, 47, 249, 0"/>
+</color>
+<material type="BASE" shade_mode="material_only" blend_mode="additive">
+<base_texture name="\Texture_Dump\SpecialEffects\Env_Dust_01_Anim.tif" address_u="clamp" address_w="clamp"/>
+</material>
+<anim variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="1.00000000" value="108.00000000"/>
+</anim>
+</prototype>
+<initial_velocity variance="0.00000000">
+<key time="0.00000000" value="1.10132217"/>
+</initial_velocity>
+</system>
+</emitter>
+<emitter type="mgParticleEmitter" name="sparks 2" cycle_mode="MODE_LOOPED" cycle_length="0.10000000" emit_worldspace="true" emit_while_stopped="false">
+<source type="mgSphereSource" pitch_start_channel="-1" pitch_width_channel="-1" radius_start_channel="-1" radius_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_start>
+<pitch_width variance="1.00000000">
+<key time="0.00000000" value="169.69161987"/>
+</pitch_width>
+<radius_start variance="0.00000000">
+<key time="0.00000000" value="0.96916306"/>
+</radius_start>
+<radius_width variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</radius_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" rate_channel="-1" lifespan_channel="-1" gravity="9.80000019" drag="0.00000000" initial_velocity_channel="-1">
+<rate variance="0.00000000">
+<key time="0.00000000" value="193.83261108"/>
+</rate>
+<lifespan variance="0.39999998">
+<key time="0.00000000" value="1.00000000"/>
+</lifespan>
+<prototype type="mgSpriteType" name="New Type" version="3.40000010" facing_camera="true" orient_to_velocity="false" stretch_to_velocity="1" sort_with_scene="false" spin_offset="0.00000000" pivot="0.00000000, -0.40000001" anim_offset="0.00000000">
+<size variance="0.39999998">
+<key time="0.00000000" value="1.23348022"/>
+<key time="0.17834395" value="0.70484579"/>
+<key time="1.00000000" value="0.17621145"/>
+</size>
+<aspect_ratio variance="0.00000000">
+<key time="0.00000000" value="1.00000000"/>
+</aspect_ratio>
+<spin variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</spin>
+<color variance="0.00000000">
+<key time="0.00000000" value="255, 255, 255, 255"/>
+<key time="0.15942030" value="182, 221, 251, 254"/>
+<key time="0.65797102" value="125, 91, 245, 255"/>
+<key time="1.00000000" value="90, 15, 215, 0"/>
+</color>
+<material type="BASE" shade_mode="material_only" blend_mode="additive">
+<base_texture name="\Texture_Dump\SpecialEffects\shared_spark.tif" address_u="clamp" address_w="clamp"/>
+</material>
+<anim variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</anim>
+</prototype>
+<initial_velocity variance="0.59999996">
+<key time="0.00000000" value="13.43611908"/>
+</initial_velocity>
+</system>
+</emitter>
+<emitter type="mgParticleEmitter" name="electric arc 1" cycle_mode="MODE_LOOPED" cycle_length="0.10000000" emit_worldspace="false" emit_while_stopped="false">
+<source type="mgPointSource" pitch_start_channel="-1" pitch_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_start>
+<pitch_width variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" rate_channel="-1" lifespan_channel="-1" gravity="0.00000000" drag="0.00000000" initial_velocity_channel="-1">
+<rate variance="0.34999999">
+<key time="0.00000000" value="9.00000000"/>
+</rate>
+<lifespan variance="0.00000000">
+<key time="0.00000000" value="0.10000000"/>
+</lifespan>
+<prototype type="mgSpriteType" name="New Type" version="3.40000010" facing_camera="true" orient_to_velocity="false" stretch_to_velocity="1" sort_with_scene="false" spin_offset="6.28318548" pivot="0.00000000, 0.00000000" anim_offset="0.00000000">
+<size variance="0.44999999">
+<key time="0.00000000" value="12.16203308"/>
+<key time="1.00000000" value="16.23989105"/>
+</size>
+<aspect_ratio variance="0.00000000">
+<key time="0.00000000" value="1.00000000"/>
+</aspect_ratio>
+<spin variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="1.00000000" value="0.00000000"/>
+</spin>
+<color variance="0.00000000">
+<key time="0.00000000" value="255, 255, 255, 255"/>
+<key time="0.57101446" value="198, 201, 251, 255"/>
+<key time="1.00000000" value="192, 195, 252, 0"/>
+</color>
+<material type="BASE" shade_mode="material_only" blend_mode="additive">
+<base_texture name="\Texture_Dump\SpecialEffects\Wpn_Elec_Arc_01_Alt.tif" address_u="wrap" address_w="clamp"/>
+</material>
+<anim variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</anim>
+</prototype>
+<initial_velocity variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</initial_velocity>
+</system>
+</emitter>
+<emitter type="mgParticleEmitter" name="electric arc 2" cycle_mode="MODE_LOOPED" cycle_length="0.10000000" emit_worldspace="false" emit_while_stopped="false">
+<source type="mgPointSource" pitch_start_channel="-1" pitch_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_start>
+<pitch_width variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" rate_channel="-1" lifespan_channel="-1" gravity="0.00000000" drag="0.00000000" initial_velocity_channel="-1">
+<rate variance="0.34999999">
+<key time="0.00000000" value="10.00000000"/>
+</rate>
+<lifespan variance="0.00000000">
+<key time="0.00000000" value="0.10000000"/>
+</lifespan>
+<prototype type="mgSpriteType" name="New Type" version="3.40000010" facing_camera="true" orient_to_velocity="false" stretch_to_velocity="1" sort_with_scene="false" spin_offset="6.28318548" pivot="0.00000000, 0.00000000" anim_offset="0.00000000">
+<size variance="0.44999999">
+<key time="0.00000000" value="18.30352783"/>
+<key time="1.00000000" value="22.82912636"/>
+</size>
+<aspect_ratio variance="0.00000000">
+<key time="0.00000000" value="1.00000000"/>
+</aspect_ratio>
+<spin variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="1.00000000" value="0.00000000"/>
+</spin>
+<color variance="0.00000000">
+<key time="0.00000000" value="255, 255, 255, 255"/>
+<key time="0.68695652" value="204, 206, 251, 255"/>
+<key time="1.00000000" value="213, 215, 253, 0"/>
+</color>
+<material type="BASE" shade_mode="material_only" blend_mode="additive">
+<base_texture name="\Texture_Dump\SpecialEffects\Wpn_Elec_Arc_02_Alt.tif" address_u="wrap" address_w="clamp"/>
+</material>
+<anim variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</anim>
+</prototype>
+<initial_velocity variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</initial_velocity>
+</system>
+</emitter>
+<emitter type="mgParticleEmitter" name="New Emitter" cycle_mode="MODE_ONEWAY" cycle_length="1.00000000" emit_worldspace="true" emit_while_stopped="true">
+<source type="mgPointSource" pitch_start_channel="-1" pitch_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_start>
+<pitch_width variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</pitch_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" rate_channel="-1" lifespan_channel="-1" gravity="0.00000000" drag="0.00000000" initial_velocity_channel="-1">
+<rate variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</rate>
+<lifespan variance="0.00000000">
+<key time="0.00000000" value="0.26431715"/>
+<key time="0.15923567" value="2.00000000"/>
+<key time="1.00000000" value="2.00000000"/>
+</lifespan>
+<prototype type="mgRibbonType" name="New Type" version="3.40000010" pin_uvs="true" tile_length="14.99999905" uv_animation="0.00000000, 0.00000000">
+<size variance="0.19999999">
+<key time="0.00000000" value="3.96475768"/>
+<key time="0.62420380" value="2.33480167"/>
+<key time="1.00000000" value="0.00000000"/>
+</size>
+<color variance="0.00000000">
+<key time="0.00000000" value="255, 255, 255, 255"/>
+<key time="0.40289855" value="31, 199, 255, 97"/>
+<key time="0.51014495" value="94, 61, 241, 79"/>
+<key time="0.99420291" value="135, 1, 253, 0"/>
+</color>
+<material type="BASE" shade_mode="material_only" blend_mode="additive">
+<base_texture name="\Texture_Dump\SpecialEffects\Wpn_Laser_Trail.tif" address_u="clamp" address_w="clamp"/>
+</material>
+</prototype>
+<initial_velocity variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</initial_velocity>
+</system>
+</emitter>
+<emitter type="mgParticleEmitter" name="rays" cycle_mode="MODE_ONEWAY" cycle_length="3.00000000" emit_worldspace="false" emit_while_stopped="true">
+<source type="mgPointSource" pitch_start_channel="-1" pitch_width_channel="-1">
+<pitch_start variance="0.00000000">
+<key time="0.00000000" value="180.00000000"/>
+</pitch_start>
+<pitch_width variance="0.00000000">
+<key time="0.00000000" value="168.10572815"/>
+</pitch_width>
+</source>
+<system type="mgKineticSystem" name="New System" inherit_velocity="0.00000000" rate_channel="-1" lifespan_channel="-1" gravity="0.00000000" drag="6.00000000" initial_velocity_channel="-1">
+<rate variance="0.00000000">
+<key time="0.00000000" value="13.00000000"/>
+</rate>
+<lifespan variance="0.44999999">
+<key time="0.00000000" value="0.40000001"/>
+</lifespan>
+<prototype type="mgSpriteType" name="New Type" version="3.40000010" facing_camera="true" orient_to_velocity="false" stretch_to_velocity="1" sort_with_scene="false" spin_offset="6.28318548" pivot="-0.17000000, -0.50999999" anim_offset="0.00000000">
+<size variance="0.00000000">
+<key time="0.00000000" value="4.38101292"/>
+<key time="0.06687898" value="18.96187401"/>
+<key time="1.00000000" value="26.92296600"/>
+</size>
+<aspect_ratio variance="0.00000000">
+<key time="0.00000000" value="0.61674011"/>
+<key time="1.00000000" value="1.18942726"/>
+</aspect_ratio>
+<spin variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</spin>
+<color variance="0.00000000">
+<key time="0.00000000" value="255, 255, 255, 255"/>
+<key time="0.83188409" value="160, 131, 248, 238"/>
+<key time="1.00000000" value="95, 9, 239, 0"/>
+</color>
+<material type="BASE" shade_mode="material_only" blend_mode="additive">
+<base_texture name="\Texture_Dump\SpecialEffects\Expl_Mech_Lightray_01.tif" address_u="clamp" address_w="clamp"/>
+</material>
+<anim variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+<key time="1.00000000" value="108.00000000"/>
+</anim>
+</prototype>
+<initial_velocity variance="0.00000000">
+<key time="0.00000000" value="0.00000000"/>
+</initial_velocity>
+</system>
+</emitter>
+</mgParticle>

@@ -231,7 +231,7 @@
 <key time="1.00000000" value="255, 255, 255, 0"/>
 </color>
 <material type="BASE" shade_mode="material_only" blend_mode="additive">
-<base_texture name="\Texture_Dump\SpecialEffects\Wpn_Elec_Arc_01.tif" address_u="wrap" address_w="clamp"/>
+<base_texture name="\Texture_Dump\SpecialEffects\Wpn_Elec_Arc_01_Alt.tif" address_u="wrap" address_w="clamp"/>
 </material>
 <anim variance="0.00000000">
 <key time="0.00000000" value="0.00000000"/>
@@ -264,7 +264,7 @@
 <key time="1.00000000" value="255, 255, 255, 0"/>
 </color>
 <material type="BASE" shade_mode="material_only" blend_mode="additive">
-<base_texture name="\Texture_Dump\SpecialEffects\Wpn_Elec_Arc_02.tif" address_u="wrap" address_w="clamp"/>
+<base_texture name="\Texture_Dump\SpecialEffects\Wpn_Elec_Arc_02_Alt.tif" address_u="wrap" address_w="clamp"/>
 </material>
 <anim variance="0.00000000">
 <key time="0.00000000" value="0.00000000"/>
