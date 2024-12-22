@@ -1,6 +1,6 @@
 # Mechassault 2 Base Mod
 
-This mod aims to improve and expand upon the foundation that the game MechAssault 2 Lone Wolf started. Adding new features and quality of life changes, such as more time and score options for multiplayer (including for the Grinder game mode). As well as an easy-to-access mission loader has been added to the pause menu, making it easy to jump straight into any mission or cutscene at any time! To install and play, it is recommended to download the [latest release](https://github.com/EliteHeroes/Mechassault2-Base-Mod/releases) and follow the install guide found below.
+This mod aims to improve and expand upon the foundation that the game MechAssault 2 Lone Wolf started. Adding new features and quality of life changes, such as more time and score options for multiplayer (including for the Grinder game mode). As well as an easy-to-access mission loader has been added to the pause menu, making it convenient to jump straight into any mission or cutscene at any time! To install and play, it is recommended to download the [latest release](https://github.com/EliteHeroes/Mechassault2-Base-Mod/releases) and follow the install guide found below.
 
 
 ![](/Screenshots/Pic1.png)
