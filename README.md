@@ -28,7 +28,7 @@ If the game isn't detecting the newly installed mods, here are some things you c
 * If you're missing maps on the multiplayer select screen, you might not have installed all the DLC correctly. Start the DLC installer and check the list to verify all the options have been selected and installed.
 * If the game crashes or refusues to load certain maps or campaign missions, either your game files are corrupted or your copy of Mechssault 2 is incomplete. 
 
-If you're still having any problems with installing, feel free to leave a message in the help section on the [MechDonald's Discord](https://discord.gg/yKpHC5EPz)
+If you're still having any problems with installing, feel free to leave a message in the help section on the [MechDonald's Discord](https://discord.gg/yKpHC5EPzy)
 
 ### Editing Modded Files
 
